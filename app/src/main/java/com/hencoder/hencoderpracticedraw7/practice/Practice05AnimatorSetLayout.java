@@ -44,10 +44,11 @@ public class Practice05AnimatorSetLayout extends RelativeLayout {
                 animator3.setDuration(1000);
 
                 AnimatorSet animatorSet = new AnimatorSet();
-                // 用 AnimatorSet 的方法来让三个动画协作执行
+                // 按照指定顺序执行多个动画或同时执行多个动画
+                //TODO 用 AnimatorSet 的方法来让三个动画协作执行
                 // 要求 1： animator1 先执行，animator2 在 animator1 完成后立即开始
+                animatorSet.play(animator2).with(animator3).after(animator1);
                 // 要求 2： animator2 和 animator3 同时开始
-
                 animatorSet.start();
             }
         });

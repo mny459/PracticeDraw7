@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HenCoder 绘制 7</string>
+    <string name="app_name">属性动画2</string>
     <string name="title_argb_evaluator">ArgbEvaluator</string>
     <string name="title_hsv_evaluator">HsvEvaluator</string>
     <string name="title_of_object">ofObject()</string>
